@@ -1,17 +1,17 @@
-# machine_learning_project-unsupervised-learning
+# Wholesale Customer Segmentation Analysis
 
-## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
-
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
-
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
-
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+## Overview
+This repository contains a comprehensive unsupervised learning project aimed at segmenting wholesale customers based on their annual spending in various product categories. The project encompasses data preprocessing, exploratory data analysis (EDA), principal component analysis (PCA), and clustering algorithms.
+### Dataset
+The dataset (Wholesale_Data.csv) refers to clients of a wholesale distributor and includes the following categories: Fresh, Milk, Grocery, Frozen, Detergents_Paper, and Delicatessen.
+### Project Structure and Steps
+Data Preprocessing: Standardized the data and addressed any anomalies, ensuring a clean dataset for analysis.
+Exploratory Data Analysis: Conducted initial analysis to understand the distribution and relationships of the features.
+PCA: Applied Principal Component Analysis to reduce the dataset dimensionality while preserving the variance.
+Clustering: Implemented KMeans and Hierarchical clustering to identify customer segments.
+Interpretation and Strategy: Interpreted the clusters to define customer profiles and suggested strategic business actions.
+### Analysis Summary
+Exploratory Data Analysis: We visualized the distribution of each product category, noting significant skewness in the data. For instance, air plots were generated to observe bivariate relationships and identify potential correlations.
+PCA Findings: PCA indicated that the first four components accounted for over 90% of the variance. The first component was heavily weighted by features associated with non-perishable products, while the second component was influenced by fresh food spending.
+Clustering Outcomes: KMeans clustering suggested three customer segments, which were cross-validated with Hierarchical clustering. Both methods agreed on the optimal number of clusters, providing confidence in the stability of the segmentation.
 
